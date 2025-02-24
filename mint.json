@@ -9,7 +9,6 @@
     {
       "group": "AI Assistants",
       "pages": [
-        "ai-assistants/what-is-ai-assistant.mdx",
         "ai-assistants/cal-com-scheduling.mdx",
         "ai-assistants/creating-and-editing.mdx",
         "ai-assistants/filler-audio.mdx",
@@ -18,6 +17,7 @@
         "ai-assistants/testing.mdx",
         "ai-assistants/tools-and-functions.mdx",
         "ai-assistants/voice-selection.mdx"
+        "ai-assistants/what-is-ai-assistant.mdx",
       ]
     }
   ],
