@@ -181,6 +181,10 @@
     {
       "source": "/automation-platform/:slug*.mdx",
       "destination": "/automation-platform/:slug*"
+    },
+    {
+      "source": "/resources/:slug*.mdx",
+      "destination": "/resources/:slug*"
     }
   ],
   "github": {
