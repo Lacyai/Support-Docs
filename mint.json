@@ -1,5 +1,6 @@
 {
   "name": "Lacyai Support Docs",
+  "theme": "mint",
   "favicon": "/static/favicon.png",
   "logo": "/static/logo.png",
   "colors": {
@@ -9,16 +10,26 @@
     {
       "group": "AI Assistants",
       "pages": [
-        "ai-assistants/cal-com-scheduling.mdx",
-        "ai-assistants/creating-and-editing.mdx",
-        "ai-assistants/filler-audio.mdx",
-        "ai-assistants/initial-message.mdx",
-        "ai-assistants/system-prompt.mdx",
-        "ai-assistants/testing.mdx",
-        "ai-assistants/tools-and-functions.mdx",
-        "ai-assistants/voice-selection.mdx",
-        "ai-assistants/what-is-ai-assistant.mdx"
+        "ai-assistants/what-is-ai-assistant",
+        "ai-assistants/cal-com-scheduling",
+        "ai-assistants/creating-and-editing",
+        "ai-assistants/filler-audio",
+        "ai-assistants/initial-message",
+        "ai-assistants/system-prompt",
+        "ai-assistants/testing",
+        "ai-assistants/tools-and-functions",
+        "ai-assistants/voice-selection"
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/ai-assistants/what-is-ai-assistant.mdx",
+      "destination": "/ai-assistants/what-is-ai-assistant"
+    },
+    {
+      "source": "/ai-assistants/:slug*.mdx",
+      "destination": "/ai-assistants/:slug*"
     }
   ],
   "github": {
