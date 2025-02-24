@@ -39,11 +39,11 @@
     {
       "group": "Automation Platform",
       "pages": [
-        "automation-platform/calls-related/autocalls-tool"
-        "automation-platform/calls-related/common-integrations"
-        "automation-platform/calls-related/sms-capabilities"
-        "automation-platform/tutorials/inbound-context-injection"
-        "automation-platform/tutorials/outbound-form-call"
+        "automation-platform/calls-related/autocalls-tool",
+        "automation-platform/calls-related/common-integrations",
+        "automation-platform/calls-related/sms-capabilities",
+        "automation-platform/tutorials/inbound-context-injection",
+        "automation-platform/tutorials/outbound-form-call",
         "automation-platform/introduction",
         "automation-platform/building-flows",
         "automation-platform/debugging-runs",
