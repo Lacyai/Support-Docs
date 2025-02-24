@@ -1,6 +1,11 @@
 {
-  "name": "Lacyai Docs",
+  "name": "Lacyai Support Docs",
+  "favicon": "/static/favicon.ico",
   "logo": "/static/logo.png",
+  "colors": {
+    "primary": "#007BFF",
+    "secondary": "#6C757D"
+  },
   "navigation": [
     {
       "group": "AI Assistants",
