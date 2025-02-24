@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    {
+      "source": "/ai-assistants/what-is-ai-assistant.mdx",
+      "destination": "/ai-assistants/what-is-ai-assistant"
+    },
+    {
+      "source": "/ai-assistants/:slug*.mdx",
+      "destination": "/ai-assistants/:slug*"
+    }
+  ]
+}
