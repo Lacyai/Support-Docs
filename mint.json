@@ -32,13 +32,18 @@
       "group": "API Reference",
       "pages": [
         "api-reference/authentication",
-        "api-reference/campaigns",
-        "api-reference/leads"
+        "api-reference/campaigns/index",
+        "api-reference/leads/create"
       ]
     },
     {
       "group": "Automation Platform",
       "pages": [
+        "automation-platform/calls-related/autocalls-tool"
+        "automation-platform/calls-related/common-integrations"
+        "automation-platform/calls-related/sms-capabilities"
+        "automation-platform/tutorials/inbound-context-injection"
+        "automation-platform/tutorials/outbound-form-call"
         "automation-platform/introduction",
         "automation-platform/building-flows",
         "automation-platform/debugging-runs",
@@ -46,6 +51,7 @@
         "automation-platform/passing-data",
         "automation-platform/publishing-flows",
         "automation-platform/versioning"
+        
       ]
     },
     {
@@ -54,14 +60,6 @@
         "automation/overview",
         "automation/phone-system",
         "automation/webhook-api"
-      ]
-    },
-    {
-      "group": "Calls Related",
-      "pages": [
-        "calls-related/inbound-calls",
-        "calls-related/outbound-calls",
-        "calls-related/provisioning"
       ]
     },
     {
@@ -97,8 +95,11 @@
     {
       "group": "Platform Guide",
       "pages": [
-        "platform-guide/call-types",
-        "platform-guide/tools",
+        "platform-guide/call-types/inbound",
+        "platform-guide/call-types/outbound",
+        "platform-guide/tools/cal-com",
+        "platform-guide/tools/end-call",
+        "platform-guide/tools/transfer-call",
         "platform-guide/basics",
         "platform-guide/costs",
         "platform-guide/introduction"
@@ -122,41 +123,7 @@
         "provisioning/phone-system-integrations",
         "provisioning/supported-countries"
       ]
-    },
-    {
-      "group": "Resources",
-      "pages": [
-        "resources/logo",
-        "resources/autocalls-action",
-        "resources/autocalls-trigger",
-        "resources/building-flow",
-        "resources/cal-event-id",
-        "resources/connections",
-        "resources/create-action",
-        "resources/dashboard",
-        "resources/debugging-flow",
-        "resources/debugging",
-        "resources/error-handling",
-        "resources/flow-builder",
-        "resources/flow-history",
-        "resources/passing-data-3steps",
-        "resources/passing-data-data-to-insert-panel",
-        "resources/passing-data-dynamic-value",
-        "resources/passing-data-load-data",
-        "resources/passing-data-main-insert-data-example",
-        "resources/passing-data-test-step-first",
-        "resources/passing-data",
-        "resources/plans",
-        "resources/publish-flow",
-        "resources/templates",
-        "resources/testing-flow",
-        "resources/variables",
-        "resources/visual-builder",
-        "resources/white-label-button",
-        "resources/wl-1",
-        "resources/wl-2"
-      ]
-    },
+    },   
     {
       "group": "Troubleshooting",
       "pages": [
@@ -181,11 +148,8 @@
     {
       "source": "/automation-platform/:slug*.mdx",
       "destination": "/automation-platform/:slug*"
-    },
-    {
-      "source": "/resources/:slug*.mdx",
-      "destination": "/resources/:slug*"
     }
+    
   ],
   "github": {
     "repo": "https://github.com/Lacyai/Support-Docs",
