@@ -1,4 +1,5 @@
 {
+  "theme": "mint",
   "redirects": [
     {
       "source": "/ai-assistants/what-is-ai-assistant.mdx",
