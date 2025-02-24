@@ -39,7 +39,7 @@
     {
       "group": "Automation Platform",
       "pages": [
-        "automation-platform/calls-related/autocalls-tool",
+        "automation-platform/calls-related/lacy-tool",
         "automation-platform/calls-related/common-integrations",
         "automation-platform/calls-related/sms-capabilities",
         "automation-platform/tutorials/inbound-context-injection",
