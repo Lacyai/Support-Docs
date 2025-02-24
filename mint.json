@@ -8,6 +8,13 @@
   },
   "navigation": [
     {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/core-concepts",
+        "getting-started/understanding-billing"
+      ]
+    },
+    {
       "group": "AI Assistants",
       "pages": [
         "ai-assistants/what-is-ai-assistant",
@@ -20,16 +27,160 @@
         "ai-assistants/tools-and-functions",
         "ai-assistants/voice-selection"
       ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/authentication",
+        "api-reference/campaigns",
+        "api-reference/leads"
+      ]
+    },
+    {
+      "group": "Automation Platform",
+      "pages": [
+        "automation-platform/introduction",
+        "automation-platform/building-flows",
+        "automation-platform/debugging-runs",
+        "automation-platform/known-limits",
+        "automation-platform/passing-data",
+        "automation-platform/publishing-flows",
+        "automation-platform/versioning"
+      ]
+    },
+    {
+      "group": "Automation",
+      "pages": [
+        "automation/overview",
+        "automation/phone-system",
+        "automation/webhook-api"
+      ]
+    },
+    {
+      "group": "Calls Related",
+      "pages": [
+        "calls-related/inbound-calls",
+        "calls-related/outbound-calls",
+        "calls-related/provisioning"
+      ]
+    },
+    {
+      "group": "Inbound Calls",
+      "pages": [
+        "inbound-calls/configuring",
+        "inbound-calls/insights",
+        "inbound-calls/overview",
+        "inbound-calls/provisioning"
+      ]
+    },
+    {
+      "group": "Outbound Calls",
+      "pages": [
+        "outbound-calls/caller-id",
+        "outbound-calls/campaigns",
+        "outbound-calls/mass-dialing",
+        "outbound-calls/overview",
+        "outbound-calls/scripts-and-prompts",
+        "outbound-calls/voicemail-handling"
+      ]
+    },
+    {
+      "group": "Phone Numbers",
+      "pages": [
+        "phone-numbers/assigning-to-assistants",
+        "phone-numbers/pricing-and-regions",
+        "phone-numbers/purchasing-and-managing",
+        "phone-numbers/sms-capabilities",
+        "phone-numbers/types"
+      ]
+    },
+    {
+      "group": "Platform Guide",
+      "pages": [
+        "platform-guide/call-types",
+        "platform-guide/tools",
+        "platform-guide/basics",
+        "platform-guide/costs",
+        "platform-guide/introduction"
+      ]
+    },
+    {
+      "group": "Pricing",
+      "pages": [
+        "pricing/extra-fees",
+        "pricing/inbound-vs-outbound",
+        "pricing/number-rentals",
+        "pricing/overview",
+        "pricing/usage-based"
+      ]
+    },
+    {
+      "group": "Provisioning",
+      "pages": [
+        "provisioning/compliance",
+        "provisioning/managing-numbers",
+        "provisioning/phone-system-integrations",
+        "provisioning/supported-countries"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/logo",
+        "resources/autocalls-action",
+        "resources/autocalls-trigger",
+        "resources/building-flow",
+        "resources/cal-event-id",
+        "resources/connections",
+        "resources/create-action",
+        "resources/dashboard",
+        "resources/debugging-flow",
+        "resources/debugging",
+        "resources/error-handling",
+        "resources/flow-builder",
+        "resources/flow-history",
+        "resources/passing-data-3steps",
+        "resources/passing-data-data-to-insert-panel",
+        "resources/passing-data-dynamic-value",
+        "resources/passing-data-load-data",
+        "resources/passing-data-main-insert-data-example",
+        "resources/passing-data-test-step-first",
+        "resources/passing-data",
+        "resources/plans",
+        "resources/publish-flow",
+        "resources/templates",
+        "resources/testing-flow",
+        "resources/variables",
+        "resources/visual-builder",
+        "resources/white-label-button",
+        "resources/wl-1",
+        "resources/wl-2"
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/ai-behavior",
+        "troubleshooting/billing",
+        "troubleshooting/byop",
+        "troubleshooting/call-quality",
+        "troubleshooting/setup-issues",
+        "troubleshooting/voice-problems"
+      ]
     }
   ],
   "redirects": [
     {
-      "source": "/ai-assistants/what-is-ai-assistant.mdx",
-      "destination": "/ai-assistants/what-is-ai-assistant"
-    },
-    {
       "source": "/ai-assistants/:slug*.mdx",
       "destination": "/ai-assistants/:slug*"
+    },
+    {
+      "source": "/outbound-calls/:slug*.mdx",
+      "destination": "/outbound-calls/:slug*"
+    },
+    {
+      "source": "/automation-platform/:slug*.mdx",
+      "destination": "/automation-platform/:slug*"
     }
   ],
   "github": {
