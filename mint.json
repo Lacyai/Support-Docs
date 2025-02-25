@@ -13,9 +13,8 @@
         {
           "group": "Introduction",
           "pages": [
-            "platform-guide/introduction",
-            "platform-guide/what-is-autocalls",
-            "platform-guide/how-it-works",
+            "platform-guide/what-is-lacy",
+            "platform-guide/how-it-works-quick-overview",
             "platform-guide/key-terminology"
           ]
         },
@@ -23,7 +22,7 @@
           "group": "Getting Started",
           "pages": [
             "platform-guide/core-concepts",
-            "platform-guide/understanding-billing"
+            "platform-guide/understanding-call-minutes-and-billing"
           ]
         },
         {
@@ -32,29 +31,29 @@
             "platform-guide/what-is-ai-assistant",
             "platform-guide/system-prompts",
             "platform-guide/initial-message-audio",
-            "platform-guide/creating-editing-assistant",
-            "platform-guide/tools-functions",
+            "platform-guide/creating-and-editing-assistant",
+            "platform-guide/tools-and-functions",
             "platform-guide/voice-selection-cloning",
             "platform-guide/filler-audio",
-            "platform-guide/cal-com-scheduling",
-            "platform-guide/testing-assistant"
+            "platform-guide/calcom-appointment-scheduling",
+            "platform-guide/testing-your-assistant"
           ]
         },
         {
           "group": "Phone Numbers",
           "pages": [
-            "platform-guide/types-phone-numbers",
+            "platform-guide/types-of-phone-numbers",
             "platform-guide/purchasing-managing-numbers",
             "platform-guide/pricing-regions",
             "platform-guide/sms-capabilities",
-            "platform-guide/assigning-numbers-assistants"
+            "platform-guide/assigning-numbers-to-assistants"
           ]
         },
         {
           "group": "Inbound Calls",
           "pages": [
             "platform-guide/inbound-calls-overview",
-            "platform-guide/provisioning-managing-numbers",
+            "platform-guide/provisioning-managing-phone-numbers",
             "platform-guide/configuring-inbound-assistant",
             "platform-guide/inbound-call-insights"
           ]
@@ -66,7 +65,7 @@
             "platform-guide/creating-managing-campaigns",
             "platform-guide/caller-id-handling",
             "platform-guide/voicemail-handling",
-            "platform-guide/scripts-prompts-sales-collections",
+            "platform-guide/scripts-and-prompts-sales-collections",
             "platform-guide/mass-parallel-dialing"
           ]
         },
@@ -75,7 +74,7 @@
           "pages": [
             "platform-guide/prompt-writing-basics",
             "platform-guide/inserting-knowledge-bases",
-            "platform-guide/handling-interruptions-speech",
+            "platform-guide/handling-interruptions-speech-sensitivity",
             "platform-guide/language-accent-support"
           ]
         },
@@ -106,7 +105,7 @@
           "group": "Troubleshooting & FAQs",
           "pages": [
             "platform-guide/voice-response-issues",
-            "platform-guide/billing-credits",
+            "platform-guide/billing-and-credits",
             "platform-guide/call-quality-issues",
             "platform-guide/ai-behavior-issues"
           ]
@@ -117,7 +116,7 @@
       "group": "No-Code Automation",
       "pages": [
         {
-          "group": "No-Code Automation platform",
+          "group": "No-Code Automation Platform",
           "pages": [
             "no-code-automation/introduction",
             "no-code-automation/building-flows",
@@ -139,7 +138,7 @@
         {
           "group": "Tutorials",
           "pages": [
-            "no-code-automation/tutorials/outbound-call-form-submission",
+            "no-code-automation/tutorials/outbound-call-on-form-submission",
             "no-code-automation/tutorials/inbound-call-context-injection"
           ]
         }
@@ -152,8 +151,18 @@
           "group": "API Reference",
           "pages": [
             "api-reference/introduction",
-            "api-reference/authentication",
-            "api-reference/post-create-lead",
+            "api-reference/authentication"
+          ]
+        },
+        {
+          "group": "POST",
+          "pages": [
+            "api-reference/post-create-lead"
+          ]
+        },
+        {
+          "group": "GET",
+          "pages": [
             "api-reference/get-list-campaigns"
           ]
         }
