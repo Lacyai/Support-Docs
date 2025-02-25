@@ -9,7 +9,7 @@
   "navigation": [
     {
       "group": "Platform Guide",
-      "subgroups": [
+      "pages": [
         {
           "group": "Introduction",
           "pages": [
@@ -115,7 +115,7 @@
     },
     {
       "group": "No-Code Automation",
-      "subgroups": [
+      "pages": [
         {
           "group": "No-Code Automation Platform",
           "pages": [
@@ -147,7 +147,7 @@
     },
     {
       "group": "API Reference",
-      "subgroups": [
+      "pages": [
         {
           "group": "API Reference",
           "pages": [
