@@ -8,148 +8,171 @@
   },
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Platform Guide",
+      "icon": "file-text",
       "pages": [
-        "getting-started/core-concepts",
-        "getting-started/understanding-billing"
+        {
+          "title": "Introduction",
+          "icon": "book",
+          "pages": [
+            "platform-guide/introduction",
+            "platform-guide/what-is-autocalls",
+            "platform-guide/how-it-works",
+            "platform-guide/key-terminology"
+          ]
+        },
+        {
+          "title": "Getting Started",
+          "icon": "lightbulb",
+          "pages": [
+            "platform-guide/core-concepts",
+            "platform-guide/understanding-billing"
+          ]
+        },
+        {
+          "title": "AI Assistants Overview",
+          "icon": "robot",
+          "pages": [
+            "platform-guide/what-is-ai-assistant",
+            "platform-guide/system-prompts",
+            "platform-guide/initial-message",
+            "platform-guide/creating-and-editing",
+            "platform-guide/tools-and-functions",
+            "platform-guide/voice-selection",
+            "platform-guide/filler-audio",
+            "platform-guide/cal-com-scheduling",
+            "platform-guide/testing"
+          ]
+        },
+        {
+          "title": "Phone Numbers",
+          "icon": "phone",
+          "pages": [
+            "platform-guide/types-of-phone-numbers",
+            "platform-guide/purchasing-managing-numbers",
+            "platform-guide/pricing-regions",
+            "platform-guide/sms-capabilities",
+            "platform-guide/assigning-numbers"
+          ]
+        },
+        {
+          "title": "Inbound Calls",
+          "icon": "phone-incoming",
+          "pages": [
+            "platform-guide/inbound-overview",
+            "platform-guide/provisioning-managing",
+            "platform-guide/configuring-inbound",
+            "platform-guide/inbound-call-insights"
+          ]
+        },
+        {
+          "title": "Outbound Calls",
+          "icon": "phone-outgoing",
+          "pages": [
+            "platform-guide/outbound-overview",
+            "platform-guide/managing-campaigns",
+            "platform-guide/caller-id",
+            "platform-guide/voicemail-handling",
+            "platform-guide/scripts-prompts",
+            "platform-guide/mass-dialing"
+          ]
+        },
+        {
+          "title": "AI Prompting & Conversation Design",
+          "icon": "message-square",
+          "pages": [
+            "platform-guide/prompt-writing-basics",
+            "platform-guide/inserting-knowledge-bases",
+            "platform-guide/handling-interruptions",
+            "platform-guide/language-support"
+          ]
+        }
       ]
     },
     {
-      "group": "AI Assistants",
+      "group": "No-Code Automation",
+      "icon": "wand",
       "pages": [
-        "ai-assistants/what-is-ai-assistant",
-        "ai-assistants/cal-com-scheduling",
-        "ai-assistants/creating-and-editing",
-        "ai-assistants/filler-audio",
-        "ai-assistants/initial-message",
-        "ai-assistants/system-prompt",
-        "ai-assistants/testing",
-        "ai-assistants/tools-and-functions",
-        "ai-assistants/voice-selection"
+        {
+          "title": "No-Code Automation Platform",
+          "icon": "zap",
+          "pages": [
+            "no-code-automation/introduction",
+            "no-code-automation/building-flows",
+            "no-code-automation/passing-data",
+            "no-code-automation/publishing-flows",
+            "no-code-automation/debugging-runs",
+            "no-code-automation/version-history",
+            "no-code-automation/technical-limits"
+          ]
+        },
+        {
+          "title": "Calls Related",
+          "icon": "phone-forwarded",
+          "pages": [
+            "no-code-automation/autocalls-tool",
+            "no-code-automation/common-integrations",
+            "no-code-automation/sending-sms"
+          ]
+        },
+        {
+          "title": "Tutorials",
+          "icon": "book-open",
+          "pages": [
+            "no-code-automation/tutorials/outbound-call-form-submission",
+            "no-code-automation/tutorials/inbound-call-context-injection"
+          ]
+        }
       ]
     },
     {
       "group": "API Reference",
+      "icon": "code",
       "pages": [
-        "api-reference/authentication",
-        "api-reference/campaigns/index",
-        "api-reference/leads/create"
-      ]
-    },
-    {
-      "group": "Automation Platform",
-      "pages": [
-        "automation-platform/calls-related/lacy-tool",
-        "automation-platform/calls-related/common-integrations",
-        "automation-platform/calls-related/sms-capabilities",
-        "automation-platform/tutorials/inbound-context-injection",
-        "automation-platform/tutorials/outbound-form-call",
-        "automation-platform/introduction",
-        "automation-platform/building-flows",
-        "automation-platform/debugging-runs",
-        "automation-platform/known-limits",
-        "automation-platform/passing-data",
-        "automation-platform/publishing-flows",
-        "automation-platform/versioning"
-        
-      ]
-    },
-    {
-      "group": "Automation",
-      "pages": [
-        "automation/overview",
-        "automation/phone-system",
-        "automation/webhook-api"
-      ]
-    },
-    {
-      "group": "Inbound Calls",
-      "pages": [
-        "inbound-calls/configuring",
-        "inbound-calls/insights",
-        "inbound-calls/overview",
-        "inbound-calls/provisioning"
-      ]
-    },
-    {
-      "group": "Outbound Calls",
-      "pages": [
-        "outbound-calls/caller-id",
-        "outbound-calls/campaigns",
-        "outbound-calls/mass-dialing",
-        "outbound-calls/overview",
-        "outbound-calls/scripts-and-prompts",
-        "outbound-calls/voicemail-handling"
-      ]
-    },
-    {
-      "group": "Phone Numbers",
-      "pages": [
-        "phone-numbers/assigning-to-assistants",
-        "phone-numbers/pricing-and-regions",
-        "phone-numbers/purchasing-and-managing",
-        "phone-numbers/sms-capabilities",
-        "phone-numbers/types"
-      ]
-    },
-    {
-      "group": "Platform Guide",
-      "pages": [
-        "platform-guide/call-types/inbound",
-        "platform-guide/call-types/outbound",
-        "platform-guide/tools/cal-com",
-        "platform-guide/tools/end-call",
-        "platform-guide/tools/transfer-call",
-        "platform-guide/basics",
-        "platform-guide/costs",
-        "platform-guide/introduction"
-      ]
-    },
-    {
-      "group": "Pricing",
-      "pages": [
-        "pricing/extra-fees",
-        "pricing/inbound-vs-outbound",
-        "pricing/number-rentals",
-        "pricing/overview",
-        "pricing/usage-based"
-      ]
-    },
-    {
-      "group": "Provisioning",
-      "pages": [
-        "provisioning/compliance",
-        "provisioning/managing-numbers",
-        "provisioning/phone-system-integrations",
-        "provisioning/supported-countries"
-      ]
-    },   
-    {
-      "group": "Troubleshooting",
-      "pages": [
-        "troubleshooting/ai-behavior",
-        "troubleshooting/billing",
-        "troubleshooting/byop",
-        "troubleshooting/call-quality",
-        "troubleshooting/setup-issues",
-        "troubleshooting/voice-problems"
+        {
+          "title": "Introduction",
+          "icon": "book",
+          "pages": [
+            "api-reference/introduction"
+          ]
+        },
+        {
+          "title": "Authentication",
+          "icon": "key",
+          "pages": [
+            "api-reference/authentication"
+          ]
+        },
+        {
+          "title": "POST",
+          "icon": "send",
+          "pages": [
+            "api-reference/post-create-lead"
+          ]
+        },
+        {
+          "title": "GET",
+          "icon": "download",
+          "pages": [
+            "api-reference/get-list-campaigns"
+          ]
+        }
       ]
     }
   ],
   "redirects": [
     {
-      "source": "/ai-assistants/:slug*.mdx",
-      "destination": "/ai-assistants/:slug*"
+      "source": "/platform-guide/:slug*.mdx",
+      "destination": "/platform-guide/:slug*"
     },
     {
-      "source": "/outbound-calls/:slug*.mdx",
-      "destination": "/outbound-calls/:slug*"
+      "source": "/no-code-automation/:slug*.mdx",
+      "destination": "/no-code-automation/:slug*"
     },
     {
-      "source": "/automation-platform/:slug*.mdx",
-      "destination": "/automation-platform/:slug*"
+      "source": "/api-reference/:slug*.mdx",
+      "destination": "/api-reference/:slug*"
     }
-    
   ],
   "github": {
     "repo": "https://github.com/Lacyai/Support-Docs",
