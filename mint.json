@@ -10,78 +10,153 @@
     {
       "group": "Platform Guide",
       "pages": [
-        "platform-guide/introduction",
-        "platform-guide/what-is-autocalls",
-        "platform-guide/how-it-works",
-        "platform-guide/key-terminology",
-        "platform-guide/core-concepts",
-        "platform-guide/understanding-billing",
-        "platform-guide/what-is-ai-assistant",
-        "platform-guide/system-prompts",
-        "platform-guide/initial-message",
-        "platform-guide/creating-and-editing",
-        "platform-guide/tools-and-functions",
-        "platform-guide/voice-selection",
-        "platform-guide/filler-audio",
-        "platform-guide/cal-com-scheduling",
-        "platform-guide/testing",
-        "platform-guide/types-of-phone-numbers",
-        "platform-guide/purchasing-managing-numbers",
-        "platform-guide/pricing-regions",
-        "platform-guide/sms-capabilities",
-        "platform-guide/assigning-numbers",
-        "platform-guide/inbound-overview",
-        "platform-guide/provisioning-managing",
-        "platform-guide/configuring-inbound",
-        "platform-guide/inbound-call-insights",
-        "platform-guide/outbound-overview",
-        "platform-guide/managing-campaigns",
-        "platform-guide/caller-id",
-        "platform-guide/voicemail-handling",
-        "platform-guide/scripts-prompts",
-        "platform-guide/mass-dialing",
-        "platform-guide/prompt-writing-basics",
-        "platform-guide/inserting-knowledge-bases",
-        "platform-guide/handling-interruptions",
-        "platform-guide/language-support",
-        "platform-guide/no-code-automation",
-        "platform-guide/webhook-api",
-        "platform-guide/phone-system-integrations",
-        "platform-guide/cost-overview",
-        "platform-guide/pricing-breakdown",
-        "platform-guide/number-rentals",
-        "platform-guide/supported-countries",
-        "platform-guide/managing-numbers",
-        "platform-guide/voice-response-issues",
-        "platform-guide/billing-credits",
-        "platform-guide/call-quality-issues",
-        "platform-guide/ai-behavior-issues"
+        {
+          "group": "Introduction",
+          "pages": [
+            "platform-guide/introduction",
+            "platform-guide/what-is-autocalls",
+            "platform-guide/how-it-works",
+            "platform-guide/key-terminology"
+          ]
+        },
+        {
+          "group": "Getting Started",
+          "pages": [
+            "platform-guide/core-concepts",
+            "platform-guide/understanding-billing"
+          ]
+        },
+        {
+          "group": "AI Assistants Overview",
+          "pages": [
+            "platform-guide/what-is-ai-assistant",
+            "platform-guide/system-prompts",
+            "platform-guide/initial-message-audio",
+            "platform-guide/creating-editing-assistant",
+            "platform-guide/tools-functions",
+            "platform-guide/voice-selection-cloning",
+            "platform-guide/filler-audio",
+            "platform-guide/cal-com-scheduling",
+            "platform-guide/testing-assistant"
+          ]
+        },
+        {
+          "group": "Phone Numbers",
+          "pages": [
+            "platform-guide/types-phone-numbers",
+            "platform-guide/purchasing-managing-numbers",
+            "platform-guide/pricing-regions",
+            "platform-guide/sms-capabilities",
+            "platform-guide/assigning-numbers-assistants"
+          ]
+        },
+        {
+          "group": "Inbound Calls",
+          "pages": [
+            "platform-guide/inbound-calls-overview",
+            "platform-guide/provisioning-managing-numbers",
+            "platform-guide/configuring-inbound-assistant",
+            "platform-guide/inbound-call-insights"
+          ]
+        },
+        {
+          "group": "Outbound Calls",
+          "pages": [
+            "platform-guide/outbound-calls-overview",
+            "platform-guide/creating-managing-campaigns",
+            "platform-guide/caller-id-handling",
+            "platform-guide/voicemail-handling",
+            "platform-guide/scripts-prompts-sales-collections",
+            "platform-guide/mass-parallel-dialing"
+          ]
+        },
+        {
+          "group": "AI Prompting & Conversation Design",
+          "pages": [
+            "platform-guide/prompt-writing-basics",
+            "platform-guide/inserting-knowledge-bases",
+            "platform-guide/handling-interruptions-speech",
+            "platform-guide/language-accent-support"
+          ]
+        },
+        {
+          "group": "Automation & Integrations",
+          "pages": [
+            "platform-guide/overview-no-code-automation",
+            "platform-guide/webhook-api",
+            "platform-guide/phone-system-integrations"
+          ]
+        },
+        {
+          "group": "Costs & Pricing",
+          "pages": [
+            "platform-guide/cost-overview",
+            "platform-guide/pricing-breakdown",
+            "platform-guide/number-rentals-international-rates"
+          ]
+        },
+        {
+          "group": "Number Provisioning",
+          "pages": [
+            "platform-guide/supported-countries",
+            "platform-guide/managing-your-numbers"
+          ]
+        },
+        {
+          "group": "Troubleshooting & FAQs",
+          "pages": [
+            "platform-guide/voice-response-issues",
+            "platform-guide/billing-credits",
+            "platform-guide/call-quality-issues",
+            "platform-guide/ai-behavior-issues"
+          ]
+        }
       ]
     },
     {
       "group": "No-Code Automation",
       "pages": [
-        "no-code-automation/introduction",
-        "no-code-automation/building-flows",
-        "no-code-automation/passing-data",
-        "no-code-automation/publishing-flows",
-        "no-code-automation/debugging-runs",
-        "no-code-automation/version-history",
-        "no-code-automation/technical-limits",
-        "no-code-automation/autocalls-tool",
-        "no-code-automation/common-integrations",
-        "no-code-automation/sending-sms",
-        "no-code-automation/tutorials/outbound-call-form-submission",
-        "no-code-automation/tutorials/inbound-call-context-injection"
+        {
+          "group": "No-Code Automation platform",
+          "pages": [
+            "no-code-automation/introduction",
+            "no-code-automation/building-flows",
+            "no-code-automation/passing-data",
+            "no-code-automation/publishing-flows",
+            "no-code-automation/debugging-runs",
+            "no-code-automation/version-history",
+            "no-code-automation/technical-limits"
+          ]
+        },
+        {
+          "group": "Calls Related",
+          "pages": [
+            "no-code-automation/autocalls-tool",
+            "no-code-automation/common-integrations",
+            "no-code-automation/sending-sms"
+          ]
+        },
+        {
+          "group": "Tutorials",
+          "pages": [
+            "no-code-automation/tutorials/outbound-call-form-submission",
+            "no-code-automation/tutorials/inbound-call-context-injection"
+          ]
+        }
       ]
     },
     {
       "group": "API Reference",
       "pages": [
-        "api-reference/introduction",
-        "api-reference/authentication",
-        "api-reference/post-create-lead",
-        "api-reference/get-list-campaigns"
+        {
+          "group": "API Reference",
+          "pages": [
+            "api-reference/introduction",
+            "api-reference/authentication",
+            "api-reference/post-create-lead",
+            "api-reference/get-list-campaigns"
+          ]
+        }
       ]
     }
   ],
