@@ -8,80 +8,131 @@
   },
   "navigation": [
     {
-      "group": "Platform Guide",
+      "group": "Getting Started",
       "pages": [
-        "platform-guide/introduction",
-        "platform-guide/what-is-autocalls",
-        "platform-guide/how-it-works",
-        "platform-guide/key-terminology",
-        "platform-guide/getting-started/core-concepts",
-        "platform-guide/getting-started/understanding-billing",
-        "platform-guide/ai-assistants/what-is-ai-assistant",
-        "platform-guide/ai-assistants/system-prompts",
-        "platform-guide/ai-assistants/initial-message",
-        "platform-guide/ai-assistants/creating-and-editing",
-        "platform-guide/ai-assistants/tools-and-functions",
-        "platform-guide/ai-assistants/voice-selection",
-        "platform-guide/ai-assistants/filler-audio",
-        "platform-guide/ai-assistants/cal-com-scheduling",
-        "platform-guide/ai-assistants/testing",
-        "platform-guide/phone-numbers/types",
-        "platform-guide/phone-numbers/purchasing-and-managing",
-        "platform-guide/phone-numbers/pricing-and-regions",
-        "platform-guide/phone-numbers/sms-capabilities",
-        "platform-guide/phone-numbers/assigning-to-assistants",
-        "platform-guide/inbound-calls/overview",
-        "platform-guide/inbound-calls/provisioning",
-        "platform-guide/inbound-calls/configuring",
-        "platform-guide/inbound-calls/insights",
-        "platform-guide/outbound-calls/overview",
-        "platform-guide/outbound-calls/campaigns",
-        "platform-guide/outbound-calls/caller-id",
-        "platform-guide/outbound-calls/voicemail-handling",
-        "platform-guide/outbound-calls/scripts-and-prompts",
-        "platform-guide/outbound-calls/mass-dialing",
-        "platform-guide/ai-prompting/prompt-writing",
-        "platform-guide/ai-prompting/knowledge-bases",
-        "platform-guide/ai-prompting/interruptions",
-        "platform-guide/ai-prompting/language-support",
-        "platform-guide/automation/overview",
-        "platform-guide/automation/webhook-api",
-        "platform-guide/automation/phone-system",
-        "platform-guide/pricing/overview",
-        "platform-guide/pricing/breakdown",
-        "platform-guide/pricing/number-rentals",
-        "platform-guide/provisioning/supported-countries",
-        "platform-guide/provisioning/managing-numbers",
-        "platform-guide/troubleshooting/voice-issues",
-        "platform-guide/troubleshooting/billing",
-        "platform-guide/troubleshooting/call-quality",
-        "platform-guide/troubleshooting/ai-behavior"
+        "getting-started/core-concepts",
+        "getting-started/understanding-billing"
       ]
     },
     {
-      "group": "No Code Automation",
+      "group": "AI Assistants",
       "pages": [
-        "no-code-automation/introduction",
-        "no-code-automation/building-flows",
-        "no-code-automation/passing-data",
-        "no-code-automation/publishing-flows",
-        "no-code-automation/debugging-runs",
-        "no-code-automation/version-history",
-        "no-code-automation/technical-limits",
-        "no-code-automation/calls-related/autocalls-tool",
-        "no-code-automation/calls-related/common-integrations",
-        "no-code-automation/calls-related/sending-sms",
-        "no-code-automation/tutorials/outbound-form-submission",
-        "no-code-automation/tutorials/inbound-context-injection"
+        "ai-assistants/what-is-ai-assistant",
+        "ai-assistants/cal-com-scheduling",
+        "ai-assistants/creating-and-editing",
+        "ai-assistants/filler-audio",
+        "ai-assistants/initial-message",
+        "ai-assistants/system-prompt",
+        "ai-assistants/testing",
+        "ai-assistants/tools-and-functions",
+        "ai-assistants/voice-selection"
       ]
     },
     {
       "group": "API Reference",
       "pages": [
-        "api-reference/introduction",
         "api-reference/authentication",
-        "api-reference/post/create-lead",
-        "api-reference/get/list-campaigns"
+        "api-reference/campaigns/index",
+        "api-reference/leads/create"
+      ]
+    },
+    {
+      "group": "Automation Platform",
+      "pages": [
+        "automation-platform/calls-related/lacy-tool",
+        "automation-platform/calls-related/common-integrations",
+        "automation-platform/calls-related/sms-capabilities",
+        "automation-platform/tutorials/inbound-context-injection",
+        "automation-platform/tutorials/outbound-form-call",
+        "automation-platform/introduction",
+        "automation-platform/building-flows",
+        "automation-platform/debugging-runs",
+        "automation-platform/known-limits",
+        "automation-platform/passing-data",
+        "automation-platform/publishing-flows",
+        "automation-platform/versioning"
+        
+      ]
+    },
+    {
+      "group": "Automation",
+      "pages": [
+        "automation/overview",
+        "automation/phone-system",
+        "automation/webhook-api"
+      ]
+    },
+    {
+      "group": "Inbound Calls",
+      "pages": [
+        "inbound-calls/configuring",
+        "inbound-calls/insights",
+        "inbound-calls/overview",
+        "inbound-calls/provisioning"
+      ]
+    },
+    {
+      "group": "Outbound Calls",
+      "pages": [
+        "outbound-calls/caller-id",
+        "outbound-calls/campaigns",
+        "outbound-calls/mass-dialing",
+        "outbound-calls/overview",
+        "outbound-calls/scripts-and-prompts",
+        "outbound-calls/voicemail-handling"
+      ]
+    },
+    {
+      "group": "Phone Numbers",
+      "pages": [
+        "phone-numbers/assigning-to-assistants",
+        "phone-numbers/pricing-and-regions",
+        "phone-numbers/purchasing-and-managing",
+        "phone-numbers/sms-capabilities",
+        "phone-numbers/types"
+      ]
+    },
+    {
+      "group": "Platform Guide",
+      "pages": [
+        "platform-guide/call-types/inbound",
+        "platform-guide/call-types/outbound",
+        "platform-guide/tools/cal-com",
+        "platform-guide/tools/end-call",
+        "platform-guide/tools/transfer-call",
+        "platform-guide/basics",
+        "platform-guide/costs",
+        "platform-guide/introduction"
+      ]
+    },
+    {
+      "group": "Pricing",
+      "pages": [
+        "pricing/extra-fees",
+        "pricing/inbound-vs-outbound",
+        "pricing/number-rentals",
+        "pricing/overview",
+        "pricing/usage-based"
+      ]
+    },
+    {
+      "group": "Provisioning",
+      "pages": [
+        "provisioning/compliance",
+        "provisioning/managing-numbers",
+        "provisioning/phone-system-integrations",
+        "provisioning/supported-countries"
+      ]
+    },   
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/ai-behavior",
+        "troubleshooting/billing",
+        "troubleshooting/byop",
+        "troubleshooting/call-quality",
+        "troubleshooting/setup-issues",
+        "troubleshooting/voice-problems"
       ]
     }
   ],
@@ -98,6 +149,7 @@
       "source": "/automation-platform/:slug*.mdx",
       "destination": "/automation-platform/:slug*"
     }
+    
   ],
   "github": {
     "repo": "https://github.com/Lacyai/Support-Docs",
