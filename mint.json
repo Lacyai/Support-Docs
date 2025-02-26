@@ -1,80 +1,181 @@
 {
-  "name": "LacyAI Docs",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "favicon": "/favicon.svg",
+  "name": "Lacyai Support Docs",
+  "theme": "prism",
+  "favicon": "/static/favicon.png",
+  "logo": "./logo.png",
   "colors": {
-    "primary": "#007BFF",
-    "light": "#93C5FD",
-    "dark": "#1E40AF"
+    "primary": "#007BFF"
   },
-  "topbarLinks": [
-    {
-      "name": "Contact Us",
-      "url": "mailto:support@lacy.ai"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://docs.lacy.ai/get-started"
-  },
-  "anchors": [
-    {
-      "name": "Platform Guide",
-      "icon": "server",
-      "color": "#10B981",
-      "url": "#platform-guide"
-    },
-    {
-      "name": "Community",
-      "icon": "users",
-      "color": "#2563EB",
-      "url": "https://lacy.ai/community"
-    }
-  ],
   "navigation": [
     {
       "group": "Platform Guide",
       "pages": [
-        "platform-guide/overview",
-        "platform-guide/getting-started",
-        "platform-guide/advanced-configuration"
+        {
+          "title": "Introduction",
+          "pages": [
+            "platform-guide/introduction",
+            "platform-guide/what-is-autocalls",
+            "platform-guide/how-it-works",
+            "platform-guide/key-terminology"
+          ]
+        },
+        {
+          "title": "Getting Started",
+          "pages": [
+            "platform-guide/getting-started/core-concepts",
+            "platform-guide/getting-started/understanding-billing"
+          ]
+        },
+        {
+          "title": "AI Assistants Overview",
+          "pages": [
+            "platform-guide/ai-assistants/what-is-ai-assistant",
+            "platform-guide/ai-assistants/system-prompts",
+            "platform-guide/ai-assistants/initial-message",
+            "platform-guide/ai-assistants/creating-and-editing",
+            "platform-guide/ai-assistants/tools-and-functions",
+            "platform-guide/ai-assistants/voice-selection",
+            "platform-guide/ai-assistants/filler-audio",
+            "platform-guide/ai-assistants/cal-com-scheduling",
+            "platform-guide/ai-assistants/testing"
+          ]
+        },
+        {
+          "title": "Phone Numbers",
+          "pages": [
+            "platform-guide/phone-numbers/types",
+            "platform-guide/phone-numbers/purchasing-and-managing",
+            "platform-guide/phone-numbers/pricing-and-regions",
+            "platform-guide/phone-numbers/sms-capabilities",
+            "platform-guide/phone-numbers/assigning-to-assistants"
+          ]
+        },
+        {
+          "title": "Inbound Calls",
+          "pages": [
+            "platform-guide/inbound-calls/overview",
+            "platform-guide/inbound-calls/provisioning",
+            "platform-guide/inbound-calls/configuring",
+            "platform-guide/inbound-calls/insights"
+          ]
+        },
+        {
+          "title": "Outbound Calls",
+          "pages": [
+            "platform-guide/outbound-calls/overview",
+            "platform-guide/outbound-calls/campaigns",
+            "platform-guide/outbound-calls/caller-id",
+            "platform-guide/outbound-calls/voicemail-handling",
+            "platform-guide/outbound-calls/scripts-and-prompts",
+            "platform-guide/outbound-calls/mass-dialing"
+          ]
+        },
+        {
+          "title": "AI Prompting & Conversation Design",
+          "pages": [
+            "platform-guide/ai-prompting/prompt-writing",
+            "platform-guide/ai-prompting/knowledge-bases",
+            "platform-guide/ai-prompting/interruptions",
+            "platform-guide/ai-prompting/language-support"
+          ]
+        },
+        {
+          "title": "Automation & Integrations",
+          "pages": [
+            "platform-guide/automation/overview",
+            "platform-guide/automation/webhook-api",
+            "platform-guide/automation/phone-system"
+          ]
+        },
+        {
+          "title": "Costs & Pricing",
+          "pages": [
+            "platform-guide/pricing/overview",
+            "platform-guide/pricing/breakdown",
+            "platform-guide/pricing/number-rentals"
+          ]
+        },
+        {
+          "title": "Number Provisioning",
+          "pages": [
+            "platform-guide/provisioning/supported-countries",
+            "platform-guide/provisioning/managing-numbers"
+          ]
+        },
+        {
+          "title": "Troubleshooting & FAQs",
+          "pages": [
+            "platform-guide/troubleshooting/voice-issues",
+            "platform-guide/troubleshooting/billing",
+            "platform-guide/troubleshooting/call-quality",
+            "platform-guide/troubleshooting/ai-behavior"
+          ]
+        }
       ]
     },
     {
-      "group": "No-Code Automation",
+      "group": "No Code Automation",
       "pages": [
-        "automation/introduction",
-        "automation/building-flows",
-        "automation/webhook-api"
+        {
+          "title": "No-Code Automation Platform",
+          "pages": [
+            "no-code-automation/introduction",
+            "no-code-automation/building-flows",
+            "no-code-automation/passing-data",
+            "no-code-automation/publishing-flows",
+            "no-code-automation/debugging-runs",
+            "no-code-automation/version-history",
+            "no-code-automation/technical-limits"
+          ]
+        },
+        {
+          "title": "Calls Related",
+          "pages": [
+            "no-code-automation/calls-related/autocalls-tool",
+            "no-code-automation/calls-related/common-integrations",
+            "no-code-automation/calls-related/sending-sms"
+          ]
+        },
+        {
+          "title": "Tutorials",
+          "pages": [
+            "no-code-automation/tutorials/outbound-form-submission",
+            "no-code-automation/tutorials/inbound-context-injection"
+          ]
+        }
       ]
     },
     {
       "group": "API Reference",
       "pages": [
-        "api-reference/introduction",
-        "api-reference/authentication",
-        "api-reference/endpoints"
-      ]
-    },
-    {
-      "group": "Troubleshooting",
-      "pages": [
-        "troubleshooting/faq",
-        "troubleshooting/errors",
-        "troubleshooting/contact-support"
+        {
+          "title": "API Reference",
+          "pages": [
+            "api-reference/introduction",
+            "api-reference/authentication",
+            "api-reference/post/create-lead",
+            "api-reference/get/list-campaigns"
+          ]
+        }
       ]
     }
   ],
-  "footerSocials": {
-    "github": "https://github.com/Lacyai",
-    "slack": "https://lacy.ai/slack",
-    "x": "https://x.com/lacyai"
-  },
-  "integrations": {
-    "intercom": "APP_ID",
-    "frontchat": "CHAT_ID"
+  "redirects": [
+    {
+      "source": "/ai-assistants/:slug*.mdx",
+      "destination": "/ai-assistants/:slug*"
+    },
+    {
+      "source": "/outbound-calls/:slug*.mdx",
+      "destination": "/outbound-calls/:slug*"
+    },
+    {
+      "source": "/automation-platform/:slug*.mdx",
+      "destination": "/automation-platform/:slug*"
+    }
+  ],
+  "github": {
+    "repo": "https://github.com/Lacyai/Support-Docs",
+    "branch": "main"
   }
 }
