@@ -54,7 +54,7 @@
       "icon": "rocket",
       "iconType": "solid",
       "pages": [
-        "get-started/introduction",
+        "getting-started/core-concepts",
         "get-started/getting-started",
         "get-started/cheatsheet",
         "get-started/data-usage"
