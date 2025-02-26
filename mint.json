@@ -1,163 +1,80 @@
 {
-  "name": "Alex Sidebar",
-  "$schema": "https://mintlify.com/schema.json",
-  "theme": "prism",
+  "name": "LacyAI Docs",
   "logo": {
-    "dark": "/logo/alex_logo.png",
-    "light": "/logo/alex_logo.png"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
-  "layout": "sidenav",
-  "favicon": "/logo/alex_logo.png",
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#6ED511",
-    "light": "#6ED511",
-    "dark": "#6ED511"
-  },
-  "font": {
-    "headings": {
-      "family": "Inter"
-    },
-    "body": {
-      "family": "Open Sans"
-    }
-  },
-  "sidebar": {
-    "items": "border"
+    "primary": "#007BFF",
+    "light": "#93C5FD",
+    "dark": "#1E40AF"
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:daniel@alexcodes.app"
+      "name": "Contact Us",
+      "url": "mailto:support@lacy.ai"
     }
   ],
-  "rounded": "default",
-  "topbar": {
-    "style": "default"
-  },
-  "search": {
-    "location": "top"
-  },
-  "modeToggle": {
-    "default": "dark",
-    "isHidden": false
-  },
   "topbarCtaButton": {
-    "type": "link",
-    "style": "roundedRectangle",
-    "arrow": true,
-    "name": "Discord Community",
-    "url": "https://discord.gg/T5zxfReEnd"
+    "name": "Get Started",
+    "url": "https://docs.lacy.ai/get-started"
   },
+  "anchors": [
+    {
+      "name": "Platform Guide",
+      "icon": "server",
+      "color": "#10B981",
+      "url": "#platform-guide"
+    },
+    {
+      "name": "Community",
+      "icon": "users",
+      "color": "#2563EB",
+      "url": "https://lacy.ai/community"
+    }
+  ],
   "navigation": [
     {
-      "group": "Alex Sidebar",
-      "icon": "rocket",
-      "iconType": "solid",
+      "group": "Platform Guide",
       "pages": [
-        "getting-started/core-concepts",
-        "get-started/getting-started",
-        "get-started/cheatsheet",
-        "get-started/data-usage"
+        "platform-guide/overview",
+        "platform-guide/getting-started",
+        "platform-guide/advanced-configuration"
       ]
     },
     {
-      "group": "Chat",
-      "icon": "message",
-      "iconType": "solid",
+      "group": "No-Code Automation",
       "pages": [
-        "chat/overview",
-        "chat/tabs",
-        "chat/context/agents",
-        "chat/context/memory",
-        "chat/context/commands",
-        "chat/input-modes/image-to-code",
-        "chat/input-modes/voice-mode",
-        "chat/ui/customization",
-        "chat/best-practices"
+        "automation/introduction",
+        "automation/building-flows",
+        "automation/webhook-api"
       ]
     },
     {
-      "group": "Working with Search",
-      "icon": "magnifying-glass",
-      "iconType": "solid",
+      "group": "API Reference",
       "pages": [
-        "search/advanced-search"
+        "api-reference/introduction",
+        "api-reference/authentication",
+        "api-reference/endpoints"
       ]
     },
     {
-      "group": "Working with Completions",
-      "icon": "sparkles",
-      "iconType": "solid",
+      "group": "Troubleshooting",
       "pages": [
-        "completions/inline-suggestions",
-        "completions/error-fixes"
-      ]
-    },
-    {
-      "group": "Configuration",
-      "icon": "cog",
-      "iconType": "solid",
-      "pages": [
-        "configuration/model-configuration",
-        {
-          "group": "Keyboard Shortcuts",
-          "pages": [
-            "configuration/code-context-shortcuts",
-            "configuration/navigation-shortcuts"
-          ]
-        },
-        "configuration/git-integration",
-        "configuration/custom-prompts",
-        "configuration/codebase-indexing"
-      ]
-    },
-    {
-      "group": "Window Settings",
-      "icon": "window",
-      "iconType": "solid",
-      "pages": [
-        "windows/overview",
-        "windows/activation",
-        "windows/positioning",
-        "windows/interface-hints"
-      ]
-    },
-    {
-      "group": "Support",
-      "icon": "life-ring",
-      "iconType": "solid",
-      "pages": [
-        "support/getting-help",
-        "support/discord-channels",
-        "support/troubleshooting"
+        "troubleshooting/faq",
+        "troubleshooting/errors",
+        "troubleshooting/contact-support"
       ]
     }
   ],
-  "redirects": [
-    {
-      "source": "/ai-assistants/:slug*.mdx",
-      "destination": "/ai-assistants/:slug*"
-    },
-    {
-      "source": "/outbound-calls/:slug*.mdx",
-      "destination": "/outbound-calls/:slug*"
-    },
-    {
-      "source": "/automation-platform/:slug*.mdx",
-      "destination": "/automation-platform/:slug*"
-    }
-    
-  ],
-  "footer": {
-    "socials": {
-      "x": "https://x.com/alexcodes_ai",
-      "discord": "https://discord.gg/T5zxfReEnd",
-      "linkedin": "https://www.linkedin.com/company/alex-sidebar/"
-    }
+  "footerSocials": {
+    "github": "https://github.com/Lacyai",
+    "slack": "https://lacy.ai/slack",
+    "x": "https://x.com/lacyai"
   },
-  "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": true,
-    "raiseIssue": true
+  "integrations": {
+    "intercom": "APP_ID",
+    "frontchat": "CHAT_ID"
   }
 }
