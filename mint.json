@@ -1,158 +1,148 @@
 {
-  "name": "Lacyai Support Docs",
+  "name": "Alex Sidebar",
+  "$schema": "https://mintlify.com/schema.json",
   "theme": "prism",
-  "favicon": "/static/favicon.png",
-  "logo": "./logo.png",
+  "logo": {
+    "dark": "/logo/alex_logo.png",
+    "light": "/logo/alex_logo.png"
+  },
+  "layout": "sidenav",
+  "favicon": "/logo/alex_logo.png",
   "colors": {
-    "primary": "#007BFF"
+    "primary": "#6ED511",
+    "light": "#6ED511",
+    "dark": "#6ED511"
+  },
+  "font": {
+    "headings": {
+      "family": "Inter"
+    },
+    "body": {
+      "family": "Open Sans"
+    }
+  },
+  "sidebar": {
+    "items": "border"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:daniel@alexcodes.app"
+    }
+  ],
+  "rounded": "default",
+  "topbar": {
+    "style": "default"
+  },
+  "search": {
+    "location": "top"
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+  },
+  "topbarCtaButton": {
+    "type": "link",
+    "style": "roundedRectangle",
+    "arrow": true,
+    "name": "Discord Community",
+    "url": "https://discord.gg/T5zxfReEnd"
   },
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Alex Sidebar",
+      "icon": "rocket",
+      "iconType": "solid",
       "pages": [
-        "getting-started/core-concepts",
-        "getting-started/understanding-billing"
+        "get-started/introduction",
+        "get-started/getting-started",
+        "get-started/cheatsheet",
+        "get-started/data-usage"
       ]
     },
     {
-      "group": "AI Assistants",
+      "group": "Chat",
+      "icon": "message",
+      "iconType": "solid",
       "pages": [
-        "ai-assistants/what-is-ai-assistant",
-        "ai-assistants/cal-com-scheduling",
-        "ai-assistants/creating-and-editing",
-        "ai-assistants/filler-audio",
-        "ai-assistants/initial-message",
-        "ai-assistants/system-prompt",
-        "ai-assistants/testing",
-        "ai-assistants/tools-and-functions",
-        "ai-assistants/voice-selection"
+        "chat/overview",
+        "chat/tabs",
+        "chat/context/agents",
+        "chat/context/memory",
+        "chat/context/commands",
+        "chat/input-modes/image-to-code",
+        "chat/input-modes/voice-mode",
+        "chat/ui/customization",
+        "chat/best-practices"
       ]
     },
     {
-      "group": "API Reference",
+      "group": "Working with Search",
+      "icon": "magnifying-glass",
+      "iconType": "solid",
       "pages": [
-        "api-reference/authentication",
-        "api-reference/campaigns/index",
-        "api-reference/leads/create"
+        "search/advanced-search"
       ]
     },
     {
-      "group": "Automation Platform",
+      "group": "Working with Completions",
+      "icon": "sparkles",
+      "iconType": "solid",
       "pages": [
-        "automation-platform/calls-related/lacy-tool",
-        "automation-platform/calls-related/common-integrations",
-        "automation-platform/calls-related/sms-capabilities",
-        "automation-platform/tutorials/inbound-context-injection",
-        "automation-platform/tutorials/outbound-form-call",
-        "automation-platform/introduction",
-        "automation-platform/building-flows",
-        "automation-platform/debugging-runs",
-        "automation-platform/known-limits",
-        "automation-platform/passing-data",
-        "automation-platform/publishing-flows",
-        "automation-platform/versioning"
-        
+        "completions/inline-suggestions",
+        "completions/error-fixes"
       ]
     },
     {
-      "group": "Automation",
+      "group": "Configuration",
+      "icon": "cog",
+      "iconType": "solid",
       "pages": [
-        "automation/overview",
-        "automation/phone-system",
-        "automation/webhook-api"
+        "configuration/model-configuration",
+        {
+          "group": "Keyboard Shortcuts",
+          "pages": [
+            "configuration/code-context-shortcuts",
+            "configuration/navigation-shortcuts"
+          ]
+        },
+        "configuration/git-integration",
+        "configuration/custom-prompts",
+        "configuration/codebase-indexing"
       ]
     },
     {
-      "group": "Inbound Calls",
+      "group": "Window Settings",
+      "icon": "window",
+      "iconType": "solid",
       "pages": [
-        "inbound-calls/configuring",
-        "inbound-calls/insights",
-        "inbound-calls/overview",
-        "inbound-calls/provisioning"
+        "windows/overview",
+        "windows/activation",
+        "windows/positioning",
+        "windows/interface-hints"
       ]
     },
     {
-      "group": "Outbound Calls",
+      "group": "Support",
+      "icon": "life-ring",
+      "iconType": "solid",
       "pages": [
-        "outbound-calls/caller-id",
-        "outbound-calls/campaigns",
-        "outbound-calls/mass-dialing",
-        "outbound-calls/overview",
-        "outbound-calls/scripts-and-prompts",
-        "outbound-calls/voicemail-handling"
-      ]
-    },
-    {
-      "group": "Phone Numbers",
-      "pages": [
-        "phone-numbers/assigning-to-assistants",
-        "phone-numbers/pricing-and-regions",
-        "phone-numbers/purchasing-and-managing",
-        "phone-numbers/sms-capabilities",
-        "phone-numbers/types"
-      ]
-    },
-    {
-      "group": "Platform Guide",
-      "pages": [
-        "platform-guide/call-types/inbound",
-        "platform-guide/call-types/outbound",
-        "platform-guide/tools/cal-com",
-        "platform-guide/tools/end-call",
-        "platform-guide/tools/transfer-call",
-        "platform-guide/basics",
-        "platform-guide/costs",
-        "platform-guide/introduction"
-      ]
-    },
-    {
-      "group": "Pricing",
-      "pages": [
-        "pricing/extra-fees",
-        "pricing/inbound-vs-outbound",
-        "pricing/number-rentals",
-        "pricing/overview",
-        "pricing/usage-based"
-      ]
-    },
-    {
-      "group": "Provisioning",
-      "pages": [
-        "provisioning/compliance",
-        "provisioning/managing-numbers",
-        "provisioning/phone-system-integrations",
-        "provisioning/supported-countries"
-      ]
-    },   
-    {
-      "group": "Troubleshooting",
-      "pages": [
-        "troubleshooting/ai-behavior",
-        "troubleshooting/billing",
-        "troubleshooting/byop",
-        "troubleshooting/call-quality",
-        "troubleshooting/setup-issues",
-        "troubleshooting/voice-problems"
+        "support/getting-help",
+        "support/discord-channels",
+        "support/troubleshooting"
       ]
     }
   ],
-  "redirects": [
-    {
-      "source": "/ai-assistants/:slug*.mdx",
-      "destination": "/ai-assistants/:slug*"
-    },
-    {
-      "source": "/outbound-calls/:slug*.mdx",
-      "destination": "/outbound-calls/:slug*"
-    },
-    {
-      "source": "/automation-platform/:slug*.mdx",
-      "destination": "/automation-platform/:slug*"
+  "footer": {
+    "socials": {
+      "x": "https://x.com/alexcodes_ai",
+      "discord": "https://discord.gg/T5zxfReEnd",
+      "linkedin": "https://www.linkedin.com/company/alex-sidebar/"
     }
-    
-  ],
-  "github": {
-    "repo": "https://github.com/Lacyai/Support-Docs",
-    "branch": "main"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
   }
 }
