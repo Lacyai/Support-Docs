@@ -1,7 +1,7 @@
 {
   "name": "Lacyai Support Docs",
   "theme": "prism",
-  "favicon": "/static/favicon.png",
+  "favicon": "./favicon.png",
   "logo": "./logo.png",
   "colors": {
     "primary": "#007BFF"
