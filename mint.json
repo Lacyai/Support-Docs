@@ -133,6 +133,21 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/ai-assistants/:slug*.mdx",
+      "destination": "/ai-assistants/:slug*"
+    },
+    {
+      "source": "/outbound-calls/:slug*.mdx",
+      "destination": "/outbound-calls/:slug*"
+    },
+    {
+      "source": "/automation-platform/:slug*.mdx",
+      "destination": "/automation-platform/:slug*"
+    }
+    
+  ],
   "footer": {
     "socials": {
       "x": "https://x.com/alexcodes_ai",
