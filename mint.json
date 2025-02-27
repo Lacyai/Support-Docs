@@ -107,7 +107,16 @@
         "troubleshooting/call-quality",
         "troubleshooting/ai-behavior"
       ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/authentication",
+        "api-reference/campaigns/index",
+        "api-reference/leads/create"
+      ]
     }
+
   ],
   "redirects": [
     {
