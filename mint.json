@@ -10,7 +10,7 @@
     {
       "group": "Platform Guide",
       "pages":[
-        "introduction/what-is-autocalls",
+        "introduction/what-is-lacy",
         "introduction/how-it-works",
         "introduction/key-terminology"
       ]
