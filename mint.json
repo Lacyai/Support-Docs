@@ -9,12 +9,6 @@
   "navigation": [
     {
       "group": "Platform Guide",
-      "pages": [
-            "introduction/placeholder"
-      ]
-    },
-    {
-      "group": "Introduction",
       "pages":[
         "introduction/what-is-autocalls",
         "introduction/how-it-works",
