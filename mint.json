@@ -10,14 +10,16 @@
     {
       "group": "Platform Guide",
       "pages": [
-        "platform-guide/introduction",
-        "platform-guide/basics",
-        "platform-guide/costs",
-        "platform-guide/call-types/inbound",
-        "platform-guide/call-types/outbound",
-        "platform-guide/tools/cal-com",
-        "platform-guide/tools/end-call",
-        "platform-guide/tools/transfer-call"
+        "automation-platform/introduction",
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Introduction",
+      "pages":[
+        "introduction/what-is-autocalls",
+        "introduction/how-it-works",
+        "introduction/key-terminology"
       ]
     },
     {
@@ -74,10 +76,10 @@
     {
       "group": "AI Prompting & Conversation Design",
       "pages": [
-        "ai-assistants/system-prompt",
-        "ai-assistants/initial-message",
-        "ai-assistants/voice-selection",
-        "ai-assistants/filler-audio"
+        "conversation-design/prompt-basics",
+        "conversation-design/knowledge-bases",
+        "conversation-design/interruptions",
+        "conversation-design/language-support"
       ]
     },
     {
@@ -89,49 +91,18 @@
       ]
     },
     {
-      "group": "No-Code Automation Platform",
-      "pages": [
-        "automation-platform/introduction",
-        "automation-platform/building-flows",
-        "automation-platform/passing-data",
-        "automation-platform/publishing-flows",
-        "automation-platform/debugging-runs",
-        "automation-platform/versioning",
-        "automation-platform/known-limits"
-      ]
-    },
-    {
-      "group": "Calls Related",
-      "pages": [
-        "automation-platform/calls-related/lacy-tool",
-        "automation-platform/calls-related/common-integrations",
-        "automation-platform/calls-related/sms-capabilities"
-      ]
-    },
-    {
-      "group": "Tutorials",
-      "pages": [
-        "automation-platform/tutorials/outbound-form-call",
-        "automation-platform/tutorials/inbound-context-injection"
-      ]
-    },
-    {
       "group": "Costs & Pricing",
       "pages": [
         "pricing/overview",
         "pricing/usage-based",
-        "pricing/inbound-vs-outbound",
-        "pricing/number-rentals",
-        "pricing/extra-fees"
+        "pricing/number-rentals"
       ]
     },
     {
       "group": "Number Provisioning",
       "pages": [
         "provisioning/supported-countries",
-        "provisioning/managing-numbers",
-        "provisioning/phone-system-integrations",
-        "provisioning/compliance"
+        "provisioning/managing-numbers"
       ]
     },
     {
@@ -140,17 +111,7 @@
         "troubleshooting/voice-problems",
         "troubleshooting/billing",
         "troubleshooting/call-quality",
-        "troubleshooting/ai-behavior",
-        "troubleshooting/setup-issues",
-        "troubleshooting/byop"
-      ]
-    },
-    {
-      "group": "API Reference",
-      "pages": [
-        "api-reference/authentication",
-        "api-reference/campaigns/index",
-        "api-reference/leads/create"
+        "troubleshooting/ai-behavior"
       ]
     }
   ],
