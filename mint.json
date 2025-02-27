@@ -111,7 +111,7 @@
     {
       "group": "API Reference",
       "pages": [
-        "api-reference/introduction"
+        "api-reference/introduction",
         "api-reference/authentication",
         "api-reference/campaigns/index",
         "api-reference/leads/create"
