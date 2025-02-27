@@ -10,7 +10,7 @@
     {
       "group": "Platform Guide",
       "pages": [
-        "automation-platform/introduction"     
+            
       ]
     },
     {
@@ -84,6 +84,7 @@
     {
       "group": "Automation & Integrations",
       "pages": [
+        "automation-platform/introduction",
         "automation/overview",
         "automation/webhook-api",
         "automation/phone-system"
