@@ -8,11 +8,7 @@
   },
   "navigation": [
     {
-      "group": "Platform Guide",
-      "pages": [
-        "automation-platform/introduction",
-        "api-reference/introduction"
-      ]
+      "group": "Platform Guide"
     },
     {
       "group": "Introduction",
