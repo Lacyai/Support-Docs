@@ -96,7 +96,8 @@
       "group": "Number Provisioning",
       "pages": [
         "provisioning/supported-countries",
-        "provisioning/managing-numbers"
+        "provisioning/managing-numbers",
+        "provisioning/sip-integration"
       ]
     },
     {
