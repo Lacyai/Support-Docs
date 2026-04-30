@@ -22,6 +22,7 @@
         "getting-started/understanding-billing"
       ]
     },
+
     {
       "group": "AI Assistants Overview",
       "pages": [
@@ -33,9 +34,17 @@
         "ai-assistants/voice-selection",
         "ai-assistants/filler-audio",
         "ai-assistants/cal-com-scheduling",
-        "ai-assistants/testing"
+        "ai-assistants/testing",
+        "ai-assistants/assistant-configuration",
+        "ai-assistants/assistant-modes",
+        "ai-assistants/ai-prompt-editor",
+        "ai-assistants/custom-tools",
+        "ai-assistants/flow-builder",
+        "ai-assistants/test-chat",
+        "ai-assistants/web-widget"
       ]
     },
+
     {
       "group": "Phone Numbers",
       "pages": [
@@ -46,6 +55,7 @@
         "phone-numbers/assigning-to-assistants"
       ]
     },
+
     {
       "group": "Inbound Calls",
       "pages": [
@@ -55,6 +65,7 @@
         "inbound-calls/insights"
       ]
     },
+
     {
       "group": "Outbound Calls",
       "pages": [
@@ -66,6 +77,32 @@
         "outbound-calls/mass-dialing"
       ]
     },
+
+    {
+      "group": "Campaigns",
+      "pages": [
+        "campaigns/index",
+        "campaigns/creating-campaigns"
+      ]
+    },
+
+    {
+      "group": "Conversations",
+      "pages": [
+        "conversations/overview",
+        "conversations/viewing-and-managing"
+      ]
+    },
+
+    {
+      "group": "Leads",
+      "pages": [
+        "leads/index",
+        "leads/importing-leads",
+        "leads/managing-leads"
+      ]
+    },
+
     {
       "group": "AI Prompting & Conversation Design",
       "pages": [
@@ -75,6 +112,7 @@
         "conversation-design/language-support"
       ]
     },
+
     {
       "group": "Automation & Integrations",
       "pages": [
@@ -84,6 +122,26 @@
         "automation/phone-system"
       ]
     },
+
+    {
+      "group": "Custom Dashboards",
+      "pages": [
+        "custom-dashboards/overview",
+        "custom-dashboards/widget-types"
+      ]
+    },
+
+    {
+      "group": "WhatsApp",
+      "pages": [
+        "whatsapp/overview",
+        "whatsapp/senders",
+        "whatsapp/templates",
+        "whatsapp/conversations",
+        "whatsapp/automation"
+      ]
+    },
+
     {
       "group": "Costs & Pricing",
       "pages": [
@@ -92,34 +150,61 @@
         "pricing/number-rentals"
       ]
     },
+
     {
       "group": "Number Provisioning",
       "pages": [
         "provisioning/supported-countries",
         "provisioning/managing-numbers",
-        "provisioning/sip-integration"
+        "provisioning/sip-integration",
+        "provisioning/sip-trunking/didlogic",
+        "provisioning/sip-trunking/twilio",
+        "provisioning/sip-trunking/zadarma"
       ]
     },
+
+    {
+      "group": "Settings",
+      "pages": [
+        "settings/data-retention"
+      ]
+    },
+
     {
       "group": "Troubleshooting & FAQs",
       "pages": [
         "troubleshooting/voice-problems",
         "troubleshooting/billing",
         "troubleshooting/call-quality",
-        "troubleshooting/ai-behavior"
+        "troubleshooting/ai-behavior",
+        "troubleshooting/cal-com",
+        "troubleshooting/calendly",
+        "troubleshooting/campaigns",
+        "troubleshooting/gohighlevel",
+        "troubleshooting/leads",
+        "troubleshooting/sip-integration",
+        "troubleshooting/web-widget",
+        "troubleshooting/whatsapp"
       ]
     },
+
     {
       "group": "API Reference",
       "pages": [
         "api-reference/introduction",
         "api-reference/authentication",
         "api-reference/campaigns/index",
-        "api-reference/leads/create"
+        "api-reference/leads/create",
+        "api-reference/assistants/create-assistant",
+        "api-reference/assistants/get-assistants",
+        "api-reference/calls/get-calls",
+        "api-reference/conversations/list-conversations",
+        "api-reference/sms/send-sms",
+        "api-reference/user/me"
       ]
     }
-
   ],
+
   "redirects": [
     {
       "source": "/ai-assistants/:slug*.mdx",
@@ -134,6 +219,7 @@
       "destination": "/automation-platform/:slug*"
     }
   ],
+
   "github": {
     "repo": "https://github.com/Lacyai/Support-Docs",
     "branch": "main"
