@@ -63,7 +63,7 @@ jobs:
         if: ${{ inputs.og_image_url != '' }}
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: "https://lacy.ai/ogimage-en.jpg"
+          find: "https://autocalls.ai/ogimage-en.jpg"
           replace: "${{ inputs.og_image_url }}"
           include: "**/*.{json,mdx,md}"
 
