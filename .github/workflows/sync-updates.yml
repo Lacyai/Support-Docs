@@ -113,7 +113,7 @@ jobs:
         if: ${{ steps.brand.outputs.og_image_url != '' }}
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: "https://lacy.ai/ogimage-en.jpg"
+          find: "https://autocalls.ai/ogimage-en.jpg"
           replace: "${{ steps.brand.outputs.og_image_url }}"
           include: "**/*.{json,mdx,md}"
 
