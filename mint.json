@@ -136,6 +136,7 @@
     {
       "group": "Automation & Integrations",
       "pages": [
+        "automation/connect-ai",
         "automation-platform/introduction",
         "automation/overview",
         "automation/webhook-api",

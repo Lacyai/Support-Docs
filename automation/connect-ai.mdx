@@ -1,0 +1,59 @@
+---
+title: "Connect AI"
+description: "Connect your Lacy.ai account to Claude or ChatGPT with the Model Context Protocol (MCP)."
+icon: "plug"
+---
+
+Connect AI brings your Lacy.ai phone agents and call operations into Claude or ChatGPT. The connection uses the Model Context Protocol (MCP), which lets the chat app use tools from your Lacy.ai account after you sign in and approve access.
+
+## What you can do
+
+Use the tools available to your account and chat app to:
+
+- **Build and refine agents.** Set up an inbound or outbound assistant, update its instructions, and work with [knowledge bases](/conversation-design/knowledge-bases) and [mid-call tools](/ai-assistants/custom-tools).
+- **Review calls.** Look up recent calls, read available transcripts, and identify changes to an agent's instructions.
+- **Manage campaigns and leads.** Review campaign settings, prepare a lead list, or update a campaign where your account and chat app permit it.
+- **Build automations.** Describe how you want call data handled, such as logging qualified leads to a spreadsheet or notifying your team about callbacks.
+
+## Before you connect
+
+Have access to your [Lacy.ai account](https://app.lacy.ai/) and a Claude or ChatGPT account that can add custom MCP connections. If you use a managed workspace, your administrator may need to add or approve the connection. The tools you can use depend on your Lacy.ai account permissions and the chat app.
+
+Use this server URL in either app:
+
+```text
+https://app.lacy.ai/mcp
+```
+
+## Connect Claude
+
+1. In Claude, open **Customize → Connectors**.
+2. Select **Add** and choose the option to add a custom web connector.
+3. Name the connector **Lacy.ai** and paste the server URL.
+4. Continue through the authentication setup and select **Add**. When prompted, sign in to Lacy.ai and approve the connection. If the connector shows a **Connect** button, select it to start sign-in.
+5. In a new chat, open the **+** menu and enable **Lacy.ai** under **Connectors**.
+
+For workspace permissions and the latest menu labels, see [Claude's custom connector instructions](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
+
+## Connect ChatGPT
+
+1. Open **Plugins** in ChatGPT on the web.
+2. Select **+**, then **Add custom MCP server**.
+3. Enter **Lacy.ai** as the name and paste the server URL under **Connection**.
+4. Choose **OAuth** for authentication. Review the prompt, then select **Create as a plugin** and sign in to Lacy.ai when asked.
+5. Review the discovered tools, then select **Lacy.ai** when starting a chat that should use the connection.
+
+If your workspace uses the older Apps interface, open **Apps → Create**, enter the same URL, select **OAuth**, and choose **Scan Tools**. Sign in when prompted, then save the app. See [ChatGPT's custom MCP instructions](https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt) for workspace permissions and current support for read and write actions.
+
+## Try your first request
+
+Start with a request that reads existing data, such as **“List my Lacy.ai assistants and show which ones handle inbound calls.”** Once that works, try **“Summarize my last five calls and suggest one improvement to the assistant's prompt.”**
+
+Review any requested changes before approving them. Actions such as placing calls or sending messages may use your account balance.
+
+## Troubleshooting
+
+- **You can't add a custom connection.** Check your chat app's plan and workspace permissions. In a managed workspace, contact the administrator.
+- **You get a sign-in error or see no tools.** Confirm the server URL, reconnect through the chat app's settings, and sign in to the intended Lacy.ai account. OAuth handles sign-in without a Lacy.ai API key.
+- **A specific action is unavailable.** Check the tool list and your account permissions. The chat app may also restrict which actions it can run. You can manage the task in the [Lacy.ai dashboard](https://app.lacy.ai/).
+- **You want to disconnect.** Disable or remove the Lacy.ai connection in Claude or ChatGPT's connector or plugin settings.
