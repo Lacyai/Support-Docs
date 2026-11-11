@@ -247,7 +247,7 @@ print(response.json())
 
 - Template messages must use **approved** templates. Templates with `pending` or `rejected` status will fail.
 - The sender must be `online`. Offline senders cannot send messages.
-- Message costs are automatically deducted from your account balance (credits for tenant users, minutes for direct users).
+- Message costs are automatically deducted from your account balance.
 - After sending a template message, a 24-hour messaging window opens. During this window, you can send [freeform messages](/api-reference/whatsapp/send-freeform) without needing a template.
 - If a conversation already exists with the recipient, the message is added to the existing conversation.
 - Rate limit: 5 requests per second per user.

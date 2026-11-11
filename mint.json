@@ -9,10 +9,24 @@
   "navigation": [
     {
       "group": "Platform Guide",
-      "pages":[
+      "pages": [
+        "index",
         "introduction/what-is-lacy",
         "introduction/how-it-works",
-        "introduction/key-terminology"
+        "introduction/key-terminology",
+        {
+          "group": "Platform Basics",
+          "pages": [
+            "platform-guide/introduction",
+            "platform-guide/basics",
+            "platform-guide/call-types/inbound",
+            "platform-guide/call-types/outbound",
+            "platform-guide/costs",
+            "platform-guide/tools/cal-com",
+            "platform-guide/tools/end-call",
+            "platform-guide/tools/transfer-call"
+          ]
+        }
       ]
     },
     {
@@ -22,7 +36,6 @@
         "getting-started/understanding-billing"
       ]
     },
-
     {
       "group": "AI Assistants Overview",
       "pages": [
@@ -41,10 +54,24 @@
         "ai-assistants/custom-tools",
         "ai-assistants/flow-builder",
         "ai-assistants/test-chat",
-        "ai-assistants/web-widget"
+        "ai-assistants/web-widget",
+        {
+          "group": "Scheduling",
+          "pages": [
+            "ai-assistants/calendly-scheduling",
+            "ai-assistants/gohighlevel-scheduling"
+          ]
+        },
+        {
+          "group": "Assistant Settings",
+          "pages": [
+            "ai-assistants/settings/general",
+            "ai-assistants/settings/prompt-and-tools",
+            "ai-assistants/settings/post-call-actions"
+          ]
+        }
       ]
     },
-
     {
       "group": "Phone Numbers",
       "pages": [
@@ -55,7 +82,6 @@
         "phone-numbers/assigning-to-assistants"
       ]
     },
-
     {
       "group": "Inbound Calls",
       "pages": [
@@ -65,7 +91,6 @@
         "inbound-calls/insights"
       ]
     },
-
     {
       "group": "Outbound Calls",
       "pages": [
@@ -77,7 +102,6 @@
         "outbound-calls/mass-dialing"
       ]
     },
-
     {
       "group": "Campaigns",
       "pages": [
@@ -85,7 +109,6 @@
         "campaigns/creating-campaigns"
       ]
     },
-
     {
       "group": "Conversations",
       "pages": [
@@ -93,7 +116,6 @@
         "conversations/viewing-and-managing"
       ]
     },
-
     {
       "group": "Leads",
       "pages": [
@@ -102,7 +124,6 @@
         "leads/managing-leads"
       ]
     },
-
     {
       "group": "AI Prompting & Conversation Design",
       "pages": [
@@ -112,17 +133,41 @@
         "conversation-design/language-support"
       ]
     },
-
     {
       "group": "Automation & Integrations",
       "pages": [
         "automation-platform/introduction",
         "automation/overview",
         "automation/webhook-api",
-        "automation/phone-system"
+        "automation/phone-system",
+        {
+          "group": "Building and Managing Flows",
+          "pages": [
+            "automation-platform/building-flows",
+            "automation-platform/passing-data",
+            "automation-platform/publishing-flows",
+            "automation-platform/debugging-runs",
+            "automation-platform/versioning",
+            "automation-platform/known-limits"
+          ]
+        },
+        {
+          "group": "Calling and Messaging",
+          "pages": [
+            "automation-platform/calls-related/lacy-tool",
+            "automation-platform/calls-related/sms-capabilities",
+            "automation-platform/calls-related/common-integrations"
+          ]
+        },
+        {
+          "group": "Tutorials",
+          "pages": [
+            "automation-platform/tutorials/inbound-context-injection",
+            "automation-platform/tutorials/outbound-form-call"
+          ]
+        }
       ]
     },
-
     {
       "group": "Custom Dashboards",
       "pages": [
@@ -130,7 +175,6 @@
         "custom-dashboards/widget-types"
       ]
     },
-
     {
       "group": "WhatsApp",
       "pages": [
@@ -141,16 +185,16 @@
         "whatsapp/automation"
       ]
     },
-
     {
       "group": "Costs & Pricing",
       "pages": [
         "pricing/overview",
         "pricing/usage-based",
-        "pricing/number-rentals"
+        "pricing/number-rentals",
+        "pricing/inbound-vs-outbound",
+        "pricing/extra-fees"
       ]
     },
-
     {
       "group": "Number Provisioning",
       "pages": [
@@ -159,17 +203,18 @@
         "provisioning/sip-integration",
         "provisioning/sip-trunking/didlogic",
         "provisioning/sip-trunking/twilio",
-        "provisioning/sip-trunking/zadarma"
+        "provisioning/sip-trunking/zadarma",
+        "provisioning/compliance",
+        "provisioning/phone-system-integrations",
+        "provisioning/sip-trunking/sip-integration"
       ]
     },
-
     {
       "group": "Settings",
       "pages": [
         "settings/data-retention"
       ]
     },
-
     {
       "group": "Troubleshooting & FAQs",
       "pages": [
@@ -184,27 +229,149 @@
         "troubleshooting/leads",
         "troubleshooting/sip-integration",
         "troubleshooting/web-widget",
-        "troubleshooting/whatsapp"
+        "troubleshooting/whatsapp",
+        "troubleshooting/setup-issues",
+        "troubleshooting/byop"
       ]
     },
-
+    {
+      "group": "Release Notes",
+      "pages": [
+        "releases/index"
+      ]
+    },
     {
       "group": "API Reference",
       "pages": [
         "api-reference/introduction",
         "api-reference/authentication",
-        "api-reference/campaigns/index",
-        "api-reference/leads/create",
-        "api-reference/assistants/create-assistant",
-        "api-reference/assistants/get-assistants",
-        "api-reference/calls/get-calls",
-        "api-reference/conversations/list-conversations",
-        "api-reference/sms/send-sms",
-        "api-reference/user/me"
+        {
+          "group": "API Keys",
+          "pages": [
+            "api-reference/authentication/list-api-keys",
+            "api-reference/authentication/create-api-key",
+            "api-reference/authentication/delete-api-key"
+          ]
+        },
+        {
+          "group": "Assistants",
+          "pages": [
+            "api-reference/assistants/get-assistants",
+            "api-reference/assistants/get-outbound-assistants",
+            "api-reference/assistants/create-assistant",
+            "api-reference/assistants/update-assistant",
+            "api-reference/assistants/delete-assistant",
+            "api-reference/assistants/get-languages",
+            "api-reference/assistants/get-models",
+            "api-reference/assistants/get-voices",
+            "api-reference/assistants/get-transcriber-providers",
+            "api-reference/assistants/get-synthesizer-providers",
+            "api-reference/assistants/get-phone-numbers",
+            "api-reference/assistants/enable-inbound-webhook",
+            "api-reference/assistants/disable-inbound-webhook",
+            "api-reference/assistants/enable-conversation-ended-webhook",
+            "api-reference/assistants/disable-conversation-ended-webhook",
+            "api-reference/assistants/disable-webhook"
+          ]
+        },
+        {
+          "group": "Calls",
+          "pages": [
+            "api-reference/calls/get-calls",
+            "api-reference/calls/get-call",
+            "api-reference/calls/make-phone-call",
+            "api-reference/calls/delete-call"
+          ]
+        },
+        {
+          "group": "Campaigns",
+          "pages": [
+            "api-reference/campaigns/index",
+            "api-reference/campaigns/get-campaigns",
+            "api-reference/campaigns/create-campaign",
+            "api-reference/campaigns/update-status"
+          ]
+        },
+        {
+          "group": "Conversations",
+          "pages": [
+            "api-reference/conversations/list-conversations",
+            "api-reference/conversations/create-conversation",
+            "api-reference/conversations/get-conversation",
+            "api-reference/conversations/send-message"
+          ]
+        },
+        {
+          "group": "Knowledge Bases",
+          "pages": [
+            "api-reference/knowledgebases/get-knowledgebases",
+            "api-reference/knowledgebases/get-knowledgebase",
+            "api-reference/knowledgebases/create-knowledgebase",
+            "api-reference/knowledgebases/update-knowledgebase",
+            "api-reference/knowledgebases/delete-knowledgebase",
+            "api-reference/knowledgebases/get-documents",
+            "api-reference/knowledgebases/get-document",
+            "api-reference/knowledgebases/create-document",
+            "api-reference/knowledgebases/update-document",
+            "api-reference/knowledgebases/delete-document"
+          ]
+        },
+        {
+          "group": "Leads",
+          "pages": [
+            "api-reference/leads/get-lead",
+            "api-reference/leads/create",
+            "api-reference/leads/update-lead",
+            "api-reference/leads/delete"
+          ]
+        },
+        {
+          "group": "Mid-Call Tools",
+          "pages": [
+            "api-reference/mid-call-tools/get-tools",
+            "api-reference/mid-call-tools/get-tool",
+            "api-reference/mid-call-tools/create-tool",
+            "api-reference/mid-call-tools/update-tool",
+            "api-reference/mid-call-tools/delete-tool"
+          ]
+        },
+        {
+          "group": "Phone Numbers",
+          "pages": [
+            "api-reference/phone-numbers/get-phone-numbers",
+            "api-reference/phone-numbers/search-phone-numbers",
+            "api-reference/phone-numbers/purchase-phone-number",
+            "api-reference/phone-numbers/release-phone-number"
+          ]
+        },
+        {
+          "group": "Messaging",
+          "pages": [
+            "api-reference/sms/send-sms",
+            "api-reference/whatsapp/get-senders",
+            "api-reference/whatsapp/get-templates",
+            "api-reference/whatsapp/send-template",
+            "api-reference/whatsapp/send-freeform",
+            "api-reference/whatsapp/session-status"
+          ]
+        },
+        {
+          "group": "Webhooks",
+          "pages": [
+            "api-reference/webhooks/post-call-webhook",
+            "api-reference/webhooks/conversation-ended-webhook"
+          ]
+        },
+        {
+          "group": "AI and Account",
+          "pages": [
+            "api-reference/ai/generate-reply",
+            "api-reference/user/me"
+          ]
+        }
       ]
     }
   ],
-
   "redirects": [
     {
       "source": "/ai-assistants/:slug*.mdx",
@@ -219,7 +386,6 @@
       "destination": "/automation-platform/:slug*"
     }
   ],
-
   "github": {
     "repo": "https://github.com/Lacyai/Support-Docs",
     "branch": "main"
