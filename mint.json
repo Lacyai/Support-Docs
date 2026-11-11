@@ -52,6 +52,7 @@
         "ai-assistants/assistant-modes",
         "ai-assistants/ai-prompt-editor",
         "ai-assistants/custom-tools",
+        "ai-assistants/mcp-servers",
         "ai-assistants/flow-builder",
         "ai-assistants/test-chat",
         "ai-assistants/web-widget",
@@ -181,6 +182,7 @@
       "pages": [
         "whatsapp/overview",
         "whatsapp/senders",
+        "whatsapp/calling",
         "whatsapp/templates",
         "whatsapp/conversations",
         "whatsapp/automation"
@@ -204,6 +206,7 @@
         "provisioning/sip-integration",
         "provisioning/sip-trunking/didlogic",
         "provisioning/sip-trunking/twilio",
+        "provisioning/sip-trunking/telnyx",
         "provisioning/sip-trunking/zadarma",
         "provisioning/compliance",
         "provisioning/phone-system-integrations",
@@ -290,7 +293,9 @@
             "api-reference/campaigns/index",
             "api-reference/campaigns/get-campaigns",
             "api-reference/campaigns/create-campaign",
-            "api-reference/campaigns/update-status"
+            "api-reference/campaigns/update-status",
+            "api-reference/campaigns/get-campaign",
+            "api-reference/campaigns/delete-campaign"
           ]
         },
         {
@@ -299,7 +304,9 @@
             "api-reference/conversations/list-conversations",
             "api-reference/conversations/create-conversation",
             "api-reference/conversations/get-conversation",
-            "api-reference/conversations/send-message"
+            "api-reference/conversations/send-message",
+            "api-reference/conversations/disable-ai",
+            "api-reference/conversations/enable-ai"
           ]
         },
         {
@@ -342,7 +349,8 @@
             "api-reference/phone-numbers/get-phone-numbers",
             "api-reference/phone-numbers/search-phone-numbers",
             "api-reference/phone-numbers/purchase-phone-number",
-            "api-reference/phone-numbers/release-phone-number"
+            "api-reference/phone-numbers/release-phone-number",
+            "api-reference/phone-numbers/update-phone-number"
           ]
         },
         {
@@ -353,14 +361,62 @@
             "api-reference/whatsapp/get-templates",
             "api-reference/whatsapp/send-template",
             "api-reference/whatsapp/send-freeform",
-            "api-reference/whatsapp/session-status"
+            "api-reference/whatsapp/session-status",
+            "api-reference/whatsapp/get-call-permission",
+            "api-reference/whatsapp/request-call-permission",
+            "api-reference/whatsapp/place-whatsapp-call"
           ]
         },
         {
           "group": "Webhooks",
           "pages": [
             "api-reference/webhooks/post-call-webhook",
-            "api-reference/webhooks/conversation-ended-webhook"
+            "api-reference/webhooks/conversation-ended-webhook",
+            "api-reference/webhooks/read-receipts-webhook",
+            "api-reference/webhooks/whatsapp-voice-webhook"
+          ]
+        },
+        {
+          "group": "Automations",
+          "pages": [
+            "api-reference/automations/list-automations",
+            "api-reference/automations/get-automation",
+            "api-reference/automations/list-automation-templates",
+            "api-reference/automations/apply-automation-template",
+            "api-reference/automations/create-automation",
+            "api-reference/automations/update-automation",
+            "api-reference/automations/delete-automation",
+            "api-reference/automations/list-automation-runs",
+            "api-reference/automations/retry-automation-run",
+            "api-reference/automations/restore-automation"
+          ]
+        },
+        {
+          "group": "Folders",
+          "pages": [
+            "api-reference/folders/get-folders",
+            "api-reference/folders/create-folder",
+            "api-reference/folders/update-folder",
+            "api-reference/folders/delete-folder"
+          ]
+        },
+        {
+          "group": "Labels",
+          "pages": [
+            "api-reference/labels/get-labels",
+            "api-reference/labels/create-label",
+            "api-reference/labels/update-label",
+            "api-reference/labels/delete-label"
+          ]
+        },
+        {
+          "group": "SIP Trunks",
+          "pages": [
+            "api-reference/sip-trunks/list-sip-trunks",
+            "api-reference/sip-trunks/get-sip-trunk",
+            "api-reference/sip-trunks/create-sip-trunk",
+            "api-reference/sip-trunks/update-sip-trunk",
+            "api-reference/sip-trunks/delete-sip-trunk"
           ]
         },
         {
