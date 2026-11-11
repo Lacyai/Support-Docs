@@ -1,59 +1,132 @@
 ---
-title: "Connect AI"
-description: "Connect your Lacy.ai account to Claude or ChatGPT with the Model Context Protocol (MCP)."
+title: "Claude & ChatGPT Connector (MCP)"
+description: "Use Connect AI to build, review, and manage your Lacy.ai phone agents from Claude or ChatGPT."
 icon: "plug"
 ---
 
-Connect AI brings your Lacy.ai phone agents and call operations into Claude or ChatGPT. The connection uses the Model Context Protocol (MCP), which lets the chat app use tools from your Lacy.ai account after you sign in and approve access.
+**Connect AI** links Claude or ChatGPT to your Lacy.ai account. Once connected, you can describe what you want to do in chat and use the tools available to your account.
+
+- “Draft an inbound receptionist that answers common questions and collects callback details.”
+- “Review my most recent campaign call and tell me why it ended.”
+- “Show me the settings for my follow-up campaign before I start it.”
+
+<Info>
+  Connect AI uses a remote Model Context Protocol (MCP) server with OAuth 2.0. You sign in to Lacy.ai and approve the connection. The tools you can use depend on your Lacy.ai permissions and your chat app.
+</Info>
 
 ## What you can do
 
-Use the tools available to your account and chat app to:
+<CardGroup cols={2}>
+  <Card title="Build and refine assistants" icon="robot">
+    Configure inbound and outbound agents, refine their instructions, and work with [knowledge bases](/conversation-design/knowledge-bases) and [mid-call tools](/ai-assistants/custom-tools).
+  </Card>
+  <Card title="Manage campaigns" icon="bullhorn">
+    Review [campaign settings](/campaigns/creating-campaigns), prepare lead lists, and make updates when your account and chat app allow them.
+  </Card>
+  <Card title="Review calls" icon="phone">
+    Look up recent calls, review available transcripts, and use what you learn to improve your agent.
+  </Card>
+  <Card title="Manage leads" icon="address-book">
+    Review [lead records](/leads/managing-leads) and prepare contact lists for outreach.
+  </Card>
+  <Card title="Build automations" icon="bolt">
+    Describe a workflow, such as logging qualified leads in a spreadsheet or notifying your team when a caller requests a callback.
+  </Card>
+</CardGroup>
 
-- **Build and refine agents.** Set up an inbound or outbound assistant, update its instructions, and work with [knowledge bases](/conversation-design/knowledge-bases) and [mid-call tools](/ai-assistants/custom-tools).
-- **Review calls.** Look up recent calls, read available transcripts, and identify changes to an agent's instructions.
-- **Manage campaigns and leads.** Review campaign settings, prepare a lead list, or update a campaign where your account and chat app permit it.
-- **Build automations.** Describe how you want call data handled, such as logging qualified leads to a spreadsheet or notifying your team about callbacks.
+## Before you start
 
-## Before you connect
+You’ll need access to your [Lacy.ai account](https://app.lacy.ai/) and permission to add a custom connector in Claude or ChatGPT. For a managed workspace, an administrator may need to add or approve the connection.
 
-Have access to your [Lacy.ai account](https://app.lacy.ai/) and a Claude or ChatGPT account that can add custom MCP connections. If you use a managed workspace, your administrator may need to add or approve the connection. The tools you can use depend on your Lacy.ai account permissions and the chat app.
+### Your connection link
 
-Use this server URL in either app:
+Copy this URL for either app.
 
 ```text
 https://app.lacy.ai/mcp
 ```
 
-## Connect Claude
+## Add the connector
 
-1. In Claude, open **Customize → Connectors**.
-2. Select **Add** and choose the option to add a custom web connector.
-3. Name the connector **Lacy.ai** and paste the server URL.
-4. Continue through the authentication setup and select **Add**. When prompted, sign in to Lacy.ai and approve the connection. If the connector shows a **Connect** button, select it to start sign-in.
-5. In a new chat, open the **+** menu and enable **Lacy.ai** under **Connectors**.
+<Tabs>
+  <Tab title="Claude">
+    <Steps>
+      <Step title="Open Connectors">
+        In Claude, go to **Customize → Connectors**.
+      </Step>
+      <Step title="Add a custom web connector">
+        Select **Add**, then choose the custom web connector option. Enter **Lacy.ai** as the name and paste the connection link.
+      </Step>
+      <Step title="Sign in to Lacy.ai">
+        Continue through the authentication setup and add the connector. If you see a **Connect** button, select it to start sign-in. Approve the connection when Lacy.ai prompts you.
+      </Step>
+      <Step title="Enable the connector in a chat">
+        Start a chat, open the **+** menu, and enable **Lacy.ai** under **Connectors**.
+      </Step>
+    </Steps>
 
-For workspace permissions and the latest menu labels, see [Claude's custom connector instructions](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
+    See [Claude’s custom connector instructions](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) for workspace permissions and setup options.
+  </Tab>
+  <Tab title="ChatGPT">
+    <Steps>
+      <Step title="Open Plugins">
+        In ChatGPT on the web, open **Plugins**, select **+**, then choose **Add custom MCP server**.
+      </Step>
+      <Step title="Enter the connection details">
+        Name the connection **Lacy.ai**, paste the connection link under **Connection**, and select **OAuth** for authentication.
+      </Step>
+      <Step title="Create the plugin and sign in">
+        Review the prompt, select **Create as a plugin**, and sign in to Lacy.ai when asked. Review the discovered tools.
+      </Step>
+      <Step title="Use Lacy.ai in a chat">
+        Select **Lacy.ai** when starting a chat where you want to use the connector.
+      </Step>
+    </Steps>
 
-## Connect ChatGPT
+    If your workspace uses the older Apps interface, go to **Apps → Create**, enter the same URL, choose **OAuth**, and select **Scan Tools**. Sign in when prompted, then save the app. See [ChatGPT’s custom MCP instructions](https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt) for workspace permissions and support for read and write actions.
+  </Tab>
+</Tabs>
 
-1. Open **Plugins** in ChatGPT on the web.
-2. Select **+**, then **Add custom MCP server**.
-3. Enter **Lacy.ai** as the name and paste the server URL under **Connection**.
-4. Choose **OAuth** for authentication. Review the prompt, then select **Create as a plugin** and sign in to Lacy.ai when asked.
-5. Review the discovered tools, then select **Lacy.ai** when starting a chat that should use the connection.
+## Try it
 
-If your workspace uses the older Apps interface, open **Apps → Create**, enter the same URL, select **OAuth**, and choose **Scan Tools**. Sign in when prompted, then save the app. See [ChatGPT's custom MCP instructions](https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt) for workspace permissions and current support for read and write actions.
+Start with “List my Lacy.ai assistants and show which ones handle inbound calls.” After the connection works, try one of these prompts.
 
-## Try your first request
+<CardGroup cols={2}>
+  <Card title="Review call quality" icon="headphones">
+    “Summarize my last five calls and suggest one change to the assistant’s instructions.”
+  </Card>
+  <Card title="Plan a live lookup" icon="magnifying-glass">
+    “Help me configure a mid-call tool that looks up order status by order number.”
+  </Card>
+  <Card title="Prepare a campaign" icon="list-check">
+    “Review my follow-up campaign and tell me what I still need to set before launch.”
+  </Card>
+  <Card title="Log qualified leads" icon="table">
+    “Help me set up a workflow to save qualified callers to a spreadsheet after each call.”
+  </Card>
+</CardGroup>
 
-Start with a request that reads existing data, such as **“List my Lacy.ai assistants and show which ones handle inbound calls.”** Once that works, try **“Summarize my last five calls and suggest one improvement to the assistant's prompt.”**
+## Security and privacy
 
-Review any requested changes before approving them. Actions such as placing calls or sending messages may use your account balance.
+- **Sign-in.** Approve access through Lacy.ai’s OAuth sign-in. Setup requires no Lacy.ai API key.
+- **Account access.** The connection uses the Lacy.ai account you sign in with. Review the tools available to the chat app before using it with customer data.
+- **Account changes and usage.** Review changes before approving them. Actions such as placing calls or sending messages may use your account balance.
+- **Disconnecting.** Disable or remove the Lacy.ai connection in your chat app’s connector or plugin settings.
 
-## Troubleshooting
+## FAQ
 
-- **You can't add a custom connection.** Check your chat app's plan and workspace permissions. In a managed workspace, contact the administrator.
-- **You get a sign-in error or see no tools.** Confirm the server URL, reconnect through the chat app's settings, and sign in to the intended Lacy.ai account. OAuth handles sign-in without a Lacy.ai API key.
-- **A specific action is unavailable.** Check the tool list and your account permissions. The chat app may also restrict which actions it can run. You can manage the task in the [Lacy.ai dashboard](https://app.lacy.ai/).
-- **You want to disconnect.** Disable or remove the Lacy.ai connection in Claude or ChatGPT's connector or plugin settings.
+<AccordionGroup>
+  <Accordion title="Why can’t I add a custom connector?">
+    Check your chat app’s plan and workspace permissions. If your workspace is managed, ask the administrator to add the connector or grant access.
+  </Accordion>
+  <Accordion title="What if sign-in fails or the tools don’t appear?">
+    Confirm that the connection URL is `https://app.lacy.ai/mcp`. Reconnect from the chat app’s settings, sign in to the intended Lacy.ai account, and enable the connector in a new chat.
+  </Accordion>
+  <Accordion title="Why is a specific action unavailable?">
+    Check your account permissions and the tools enabled in your chat app. You can also complete the task directly in the [Lacy.ai dashboard](https://app.lacy.ai/).
+  </Accordion>
+</AccordionGroup>
+
+## Support
+
+[Contact Lacy.ai support](https://lacy.ai/contact) if you need help connecting. Include the chat app you’re using, the step where you got stuck, and the error message you saw.
